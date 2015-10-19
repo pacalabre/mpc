@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.mpc-display {
+  height: 100px;
+}
+
+.logo {
+  color: red;
+  font-family: montserrat;
+  font-size: 20px;
+  margin: 30px 18% 30px 15px;
+}
+
+.screen {
+  background-color: yellow;
+  opacity: .2;
+  height: 50px;
+  margin: 3% 5% auto 90%;
+}
+
+.mpc-body {
+  background-color: #909090;
+  z-index: 2;
+}
+
+.shadow {
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.dial {
+  height: 150px;
+  width: 150px;
+  border-style: solid;
+  background-color: black;
+  border-radius: 50%;
+  float: left;
+  margin: 70px 10px 10px 8em;
+}
+
+.dial-top {
+  height: 90px;
+  width: 90px;
+  border-style: solid;
+  background-color: #909090;
+  border-radius: 50%;
+  float: left;
+  margin: -135px 10px 10px 10em;
+}
+
+.pads {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  padding: 5px;
+  margin: 5px 5px 15px 5px;
+  border-radius: 5%;
+  list-style-type: none;
+}
+
+.pads-row-one {
+  margin-right: 2em;
+}
+
+.pads-row-two {
+  margin-right: 2em;
+}
+
+.pads-row-three {
+  margin-right: 2em;
+}
+
+.pads-row-one li {
+float: right;
+margin-top: 1.5em;
+}
+
+.pads-row-two li {
+float: right;
+margin-top: -1.5em;
+}
+
+.pads-row-three li {
+float: right;
+margin-top: -1.5em;
+margin-bottom: 2em;
+}
+
+.fake-buttons {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  list-style-type: none;
+  margin: 6.5em 5px 5px 0px;
+}
+
+.fake-buttons-section {
+  margin-left: 100px;
+}
+
+.red-btn {
+  background-color: red;
+}
+
+
+
