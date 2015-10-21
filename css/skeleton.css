@@ -443,10 +443,12 @@ there.
 
   .dial {
     display: block;
-    .dial {
-    display: block;
     height: 150px;
     width: 150px;
+  }
+
+  .logo {
+    font-size: 25px;
   }
 }
 
@@ -464,6 +466,10 @@ there.
 
   .screen {
     height: 60px;
+  }
+
+  .logo {
+    font-size: 30px;
   }
 }
 
