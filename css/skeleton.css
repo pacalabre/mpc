@@ -403,16 +403,73 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+  .pads {
+    height: 40px;
+    width: 25%;
+  }
+
+  .dial {
+    display: none;
+  }
+
+  .dial-top {
+    display: none;
+  }
+}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+  .pads {
+    height: 50px;
+    width: 50px;
+  }
+  .dial {
+    display: block;
+    height: 120px;
+    width: 120px;
+  }
+}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+  .pads {
+    height: 80px;
+    width: 80px;
+  }
+
+  .dial {
+    display: block;
+    .dial {
+    display: block;
+    height: 150px;
+    width: 150px;
+  }
+}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+  .pads {
+    height: 110px;
+    width: 110px;
+  }
+  .dial {
+    display: block;
+    height: 160px;
+    width: 160px;
+  }
+}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  .pads {
+    height: 140px;
+    width: 140px;
+  }
+
+  .dial {
+    display: block;
+    height: 170px;
+    width: 170px;
+  }
+}
