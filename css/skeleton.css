@@ -429,6 +429,9 @@ there.
     height: 120px;
     width: 120px;
   }
+  .screen {
+    height: 40px;
+  }
 }
 
 /* Larger than tablet */
@@ -457,6 +460,10 @@ there.
     display: block;
     height: 160px;
     width: 160px;
+  }
+
+  .screen {
+    height: 60px;
   }
 }
 
